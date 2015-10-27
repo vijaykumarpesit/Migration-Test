@@ -11,10 +11,15 @@
 		B168F45E1BDF3F7700330B50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F45D1BDF3F7700330B50 /* AppDelegate.m */; };
 		B168F4611BDF3F7700330B50 /* Migration_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B168F45F1BDF3F7700330B50 /* Migration_Test.xcdatamodeld */; };
 		B168F4641BDF3F7700330B50 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F4631BDF3F7700330B50 /* MasterViewController.m */; };
-		B168F4671BDF3F7700330B50 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F4661BDF3F7700330B50 /* DetailViewController.m */; };
-		B168F46A1BDF3F7700330B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B168F4681BDF3F7700330B50 /* Main.storyboard */; };
 		B168F46C1BDF3F7700330B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B168F46B1BDF3F7700330B50 /* Assets.xcassets */; };
 		B168F46F1BDF3F7700330B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B168F46D1BDF3F7700330B50 /* LaunchScreen.storyboard */; };
+		B168F47C1BDF460000330B50 /* BSBCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F47B1BDF460000330B50 /* BSBCoreDataManager.m */; settings = {ASSET_TAGS = (); }; };
+		B168F4861BDF4C6400330B50 /* BSBMigrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F4841BDF4C6400330B50 /* BSBMigrationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B168F4871BDF4C6400330B50 /* BSBMigrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B168F4851BDF4C6400330B50 /* BSBMigrationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		B168F48B1BDF4EE700330B50 /* BSBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F4891BDF4EE700330B50 /* BSBTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B168F48C1BDF4EE700330B50 /* BSBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B168F48A1BDF4EE700330B50 /* BSBTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		B168F48E1BDF5D4900330B50 /* Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B168F48D1BDF5D4900330B50 /* Model.xcmappingmodel */; settings = {ASSET_TAGS = (); }; };
+		B168F4911BDF5DA800330B50 /* BSBCustomMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B168F4901BDF5DA800330B50 /* BSBCustomMigrationPolicy.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +30,21 @@
 		B168F4601BDF3F7700330B50 /* Migration_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Migration_Test.xcdatamodel; sourceTree = "<group>"; };
 		B168F4621BDF3F7700330B50 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		B168F4631BDF3F7700330B50 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B168F4651BDF3F7700330B50 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B168F4661BDF3F7700330B50 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		B168F4691BDF3F7700330B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B168F46B1BDF3F7700330B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B168F46E1BDF3F7700330B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B168F4701BDF3F7700330B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B168F4761BDF403300330B50 /* Migration_Test 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Migration_Test 2.xcdatamodel"; sourceTree = "<group>"; };
+		B168F47A1BDF460000330B50 /* BSBCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBCoreDataManager.h; sourceTree = "<group>"; };
+		B168F47B1BDF460000330B50 /* BSBCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBCoreDataManager.m; sourceTree = "<group>"; };
+		B168F4831BDF4C6400330B50 /* BSBMigrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBMigrationViewController.h; sourceTree = "<group>"; };
+		B168F4841BDF4C6400330B50 /* BSBMigrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBMigrationViewController.m; sourceTree = "<group>"; };
+		B168F4851BDF4C6400330B50 /* BSBMigrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSBMigrationViewController.xib; sourceTree = "<group>"; };
+		B168F4881BDF4EE700330B50 /* BSBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBTableViewCell.h; sourceTree = "<group>"; };
+		B168F4891BDF4EE700330B50 /* BSBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBTableViewCell.m; sourceTree = "<group>"; };
+		B168F48A1BDF4EE700330B50 /* BSBTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSBTableViewCell.xib; sourceTree = "<group>"; };
+		B168F48D1BDF5D4900330B50 /* Model.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model.xcmappingmodel; sourceTree = "<group>"; };
+		B168F48F1BDF5DA800330B50 /* BSBCustomMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBCustomMigrationPolicy.h; sourceTree = "<group>"; };
+		B168F4901BDF5DA800330B50 /* BSBCustomMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBCustomMigrationPolicy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +77,20 @@
 		B168F4581BDF3F7700330B50 /* Migration Test */ = {
 			isa = PBXGroup;
 			children = (
+				B168F47D1BDF460900330B50 /* CoreData */,
 				B168F45C1BDF3F7700330B50 /* AppDelegate.h */,
 				B168F45D1BDF3F7700330B50 /* AppDelegate.m */,
+				B168F4881BDF4EE700330B50 /* BSBTableViewCell.h */,
+				B168F4891BDF4EE700330B50 /* BSBTableViewCell.m */,
+				B168F48A1BDF4EE700330B50 /* BSBTableViewCell.xib */,
 				B168F4621BDF3F7700330B50 /* MasterViewController.h */,
 				B168F4631BDF3F7700330B50 /* MasterViewController.m */,
-				B168F4651BDF3F7700330B50 /* DetailViewController.h */,
-				B168F4661BDF3F7700330B50 /* DetailViewController.m */,
-				B168F4681BDF3F7700330B50 /* Main.storyboard */,
+				B168F4831BDF4C6400330B50 /* BSBMigrationViewController.h */,
+				B168F4841BDF4C6400330B50 /* BSBMigrationViewController.m */,
+				B168F4851BDF4C6400330B50 /* BSBMigrationViewController.xib */,
 				B168F46B1BDF3F7700330B50 /* Assets.xcassets */,
 				B168F46D1BDF3F7700330B50 /* LaunchScreen.storyboard */,
 				B168F4701BDF3F7700330B50 /* Info.plist */,
-				B168F45F1BDF3F7700330B50 /* Migration_Test.xcdatamodeld */,
 				B168F4591BDF3F7700330B50 /* Supporting Files */,
 			);
 			path = "Migration Test";
@@ -85,6 +102,19 @@
 				B168F45A1BDF3F7700330B50 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B168F47D1BDF460900330B50 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B168F47A1BDF460000330B50 /* BSBCoreDataManager.h */,
+				B168F47B1BDF460000330B50 /* BSBCoreDataManager.m */,
+				B168F45F1BDF3F7700330B50 /* Migration_Test.xcdatamodeld */,
+				B168F48D1BDF5D4900330B50 /* Model.xcmappingmodel */,
+				B168F48F1BDF5DA800330B50 /* BSBCustomMigrationPolicy.h */,
+				B168F4901BDF5DA800330B50 /* BSBCustomMigrationPolicy.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B168F4871BDF4C6400330B50 /* BSBMigrationViewController.xib in Resources */,
 				B168F46F1BDF3F7700330B50 /* LaunchScreen.storyboard in Resources */,
 				B168F46C1BDF3F7700330B50 /* Assets.xcassets in Resources */,
-				B168F46A1BDF3F7700330B50 /* Main.storyboard in Resources */,
+				B168F48C1BDF4EE700330B50 /* BSBTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,25 +188,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B168F4671BDF3F7700330B50 /* DetailViewController.m in Sources */,
 				B168F4641BDF3F7700330B50 /* MasterViewController.m in Sources */,
+				B168F4861BDF4C6400330B50 /* BSBMigrationViewController.m in Sources */,
+				B168F47C1BDF460000330B50 /* BSBCoreDataManager.m in Sources */,
+				B168F48E1BDF5D4900330B50 /* Model.xcmappingmodel in Sources */,
 				B168F45E1BDF3F7700330B50 /* AppDelegate.m in Sources */,
 				B168F45B1BDF3F7700330B50 /* main.m in Sources */,
 				B168F4611BDF3F7700330B50 /* Migration_Test.xcdatamodeld in Sources */,
+				B168F48B1BDF4EE700330B50 /* BSBTableViewCell.m in Sources */,
+				B168F4911BDF5DA800330B50 /* BSBCustomMigrationPolicy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B168F4681BDF3F7700330B50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B168F4691BDF3F7700330B50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B168F46D1BDF3F7700330B50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -274,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Migration Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.migrationTest.Migration-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Migration Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.migrationTest.Migration-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,9 +346,10 @@
 		B168F45F1BDF3F7700330B50 /* Migration_Test.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				B168F4761BDF403300330B50 /* Migration_Test 2.xcdatamodel */,
 				B168F4601BDF3F7700330B50 /* Migration_Test.xcdatamodel */,
 			);
-			currentVersion = B168F4601BDF3F7700330B50 /* Migration_Test.xcdatamodel */;
+			currentVersion = B168F4761BDF403300330B50 /* Migration_Test 2.xcdatamodel */;
 			path = Migration_Test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
